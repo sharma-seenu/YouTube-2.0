@@ -55,7 +55,9 @@ const Navbar = () => {
 
                 <div className="flex items-center ">
                     <GiHamburgerMenu onClick={toggleHandler} size="24px" className="cursor-pointer" />
-                    <img className="px-4" width={"115px"} src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/768px-YouTube_Logo_2017.svg.png" alt="yt_logo" />
+                    <a href="https://chat-app-akud.onrender.com/">
+                    <img className="px-4 cursor-pointer" width={"115px"} src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/768px-YouTube_Logo_2017.svg.png" alt="yt_logo"  />
+                    </a>
                 </div>
                 <div className="flex w-[40%] items-center">
                     <div className="flex w-[100%] ">
